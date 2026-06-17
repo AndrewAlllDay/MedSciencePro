@@ -1,0 +1,22 @@
+# Joomla specific
+/cache/*
+/logs/*
+/tmp/*
+/administrator/cache/*
+/administrator/logs/*
+
+# Configuration (DO NOT commit your DB passwords)
+configuration.php
+
+# Local environment
+.idea/
+.vscode/
+.DS_Store
+
+# Media and Assets
+/images/
+/media/
+
+# Other non-essential folders
+/node_modules/
+/vendor/
